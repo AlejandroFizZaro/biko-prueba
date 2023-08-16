@@ -1,0 +1,12 @@
+.listView{
+    background-color: bisque;
+    position: relative;
+    top: 10vh;
+    width: 100vw;
+    height: 90vh;
+    color: black;
+    border-radius: 20px;
+    padding: 1rem;
+    justify-content: center;
+    display: grid;
+}

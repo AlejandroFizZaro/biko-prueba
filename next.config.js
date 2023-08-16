@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: { domains: ['dulces-petalos.herokuapp.com'], },
+}
 
 module.exports = nextConfig

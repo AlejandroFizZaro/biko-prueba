@@ -1,0 +1,12 @@
+.header{
+    display: block;
+    width: 100vw;
+    height: 10vh;
+    position: absolute;
+    top: 0vh;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 10px;
+    padding-left: 3vw;
+    padding-top: 3.5vh;
+}
