@@ -1,15 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a NextJS proyect in which you can view data from a list of flowers and filter it
 
-## Getting Started
-
-First, run the development server:
+To run the server in development mode, run the following commands in the folder:
 
 ```bash
-npm run dev
+npm run start
 # or
-yarn dev
+yarn start
 # or
-pnpm dev
+pnpm start
+```
+
+To run the test cases:
+
+
+```bash
+npm run test
+# or
+yarn test
+# or
+pnpm test
+```
+
+Note: Testing was implemented with The latest stable version from Node (V20). It's recommended to update Node to use the test runner.
+
+To run the build loader:
+
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+```
+
+To run the build:
+
+```bash
+npm run start_build
+# or
+yarn start_build
+# or
+pnpm start_build
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
