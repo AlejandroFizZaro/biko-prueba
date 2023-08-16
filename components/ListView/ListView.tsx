@@ -5,7 +5,7 @@ export default function ListView() {
     return(
      <>
         <section className={styles.listView}> 
-            <ListOfFlowers searchProp={undefined}/>
+            <ListOfFlowers/>
         </section>
      </>
     )

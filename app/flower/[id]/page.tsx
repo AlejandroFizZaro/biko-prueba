@@ -6,16 +6,16 @@ import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import { ReactElement, JSXElementConstructor, ReactNode, ReactPortal, PromiseLikeOfReactNode } from "react";
 
 
-export default async function flower ({params}) {
+export default async function flower ({params} : { params: { id: string} }) {
     const { id } = params;
-    const selectedFlower  = (await getFlowers()).filter((flower) => flower.id.includes( id.toString() ))
+    const selectedFlower  = (await getFlowers()).filter((flower:any) => flower.id.includes( id.toString() ))
     
 
     return (
         <>  <Link className={styles.Link} scroll={false} href={`/`}> Atrás </Link>
             <ul className={styles.section}>
                 
-                { selectedFlower.map((flower) => (
+                { selectedFlower.map((flower : any) => (
                     <li key={flower.id} className={styles.liflower}>
                         <Image 
                             className={styles.image}

@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 let flowersSearchResults = []
 
-export default function FlowerFilter( props ) {
+export default function FlowerFilter( props: any ) {
     
     // We need the search input from the client to be updated each time a key is pressed
     const [search, setSearch] = useState('');
